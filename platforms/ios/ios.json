@@ -15,10 +15,6 @@
             {
               "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
               "count": 1
-            },
-            {
-              "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
-              "count": 1
             }
           ]
         }
@@ -40,9 +36,6 @@
       "PACKAGE_NAME": "com.lociamcorp.calculadora"
     },
     "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "com.lociamcorp.calculadora"
-    },
-    "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "com.lociamcorp.calculadora"
     },
     "cordova-plugin-whitelist": {
@@ -76,20 +69,11 @@
       "clobbers": [
         "Connection"
       ]
-    },
-    {
-      "id": "cordova-plugin-splashscreen.SplashScreen",
-      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
-      "pluginId": "cordova-plugin-splashscreen",
-      "clobbers": [
-        "navigator.splashscreen"
-      ]
     }
   ],
   "plugin_metadata": {
     "cordova-plugin-inappbrowser": "1.7.1",
     "cordova-plugin-network-information": "1.3.3",
-    "cordova-plugin-splashscreen": "4.0.3",
     "cordova-plugin-whitelist": "1.3.2"
   }
 }

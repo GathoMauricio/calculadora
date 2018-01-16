@@ -13,9 +13,6 @@
     "cordova-plugin-network-information": {
       "PACKAGE_NAME": "com.lociamcorp.calculadora"
     },
-    "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "com.lociamcorp.calculadora"
-    },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.lociamcorp.calculadora"
     }
