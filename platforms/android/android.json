@@ -7,20 +7,7 @@
     "files": {
       "AndroidManifest.xml": {
         "parents": {
-          "/manifest/application": [
-            {
-              "xml": "<activity android:exported=\"true\" android:launchMode=\"singleTop\" android:name=\"com.gae.scaffolder.plugin.FCMPluginActivity\"><intent-filter><action android:name=\"FCM_PLUGIN_ACTIVITY\" /><category android:name=\"android.intent.category.DEFAULT\" /></intent-filter></activity>",
-              "count": 1
-            },
-            {
-              "xml": "<service android:name=\"com.gae.scaffolder.plugin.MyFirebaseMessagingService\"><intent-filter><action android:name=\"com.google.firebase.MESSAGING_EVENT\" /></intent-filter></service>",
-              "count": 1
-            },
-            {
-              "xml": "<service android:name=\"com.gae.scaffolder.plugin.MyFirebaseInstanceIDService\"><intent-filter><action android:name=\"com.google.firebase.INSTANCE_ID_EVENT\" /></intent-filter></service>",
-              "count": 1
-            }
-          ],
+          "/manifest/application": [],
           "/*": [
             {
               "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
@@ -47,10 +34,6 @@
             {
               "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
               "count": 1
-            },
-            {
-              "xml": "<feature name=\"FCMPlugin\"><param name=\"android-package\" value=\"com.gae.scaffolder.plugin.FCMPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
-              "count": 1
             }
           ]
         }
@@ -68,9 +51,6 @@
       "PACKAGE_NAME": "com.lociamcorp.calculadora"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.lociamcorp.calculadora"
-    },
-    "cordova-plugin-fcm": {
       "PACKAGE_NAME": "com.lociamcorp.calculadora"
     }
   },
@@ -109,21 +89,12 @@
       "clobbers": [
         "navigator.splashscreen"
       ]
-    },
-    {
-      "id": "cordova-plugin-fcm.FCMPlugin",
-      "file": "plugins/cordova-plugin-fcm/www/FCMPlugin.js",
-      "pluginId": "cordova-plugin-fcm",
-      "clobbers": [
-        "FCMPlugin"
-      ]
     }
   ],
   "plugin_metadata": {
     "cordova-plugin-inappbrowser": "1.7.1",
     "cordova-plugin-network-information": "1.3.3",
     "cordova-plugin-splashscreen": "4.0.3",
-    "cordova-plugin-whitelist": "1.3.2",
-    "cordova-plugin-fcm": "2.1.2"
+    "cordova-plugin-whitelist": "1.3.2"
   }
 }

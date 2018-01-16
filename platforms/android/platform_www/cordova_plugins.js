@@ -33,14 +33,6 @@ module.exports = [
     "clobbers": [
       "navigator.splashscreen"
     ]
-  },
-  {
-    "id": "cordova-plugin-fcm.FCMPlugin",
-    "file": "plugins/cordova-plugin-fcm/www/FCMPlugin.js",
-    "pluginId": "cordova-plugin-fcm",
-    "clobbers": [
-      "FCMPlugin"
-    ]
   }
 ];
 module.exports.metadata = 
@@ -49,8 +41,7 @@ module.exports.metadata =
   "cordova-plugin-inappbrowser": "1.7.1",
   "cordova-plugin-network-information": "1.3.3",
   "cordova-plugin-splashscreen": "4.0.3",
-  "cordova-plugin-whitelist": "1.3.2",
-  "cordova-plugin-fcm": "2.1.2"
+  "cordova-plugin-whitelist": "1.3.2"
 };
 // BOTTOM OF METADATA
 });
