@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "901339003327",
+    "firebase_url": "https://calculadoraimpuestos.firebaseio.com",
+    "project_id": "calculadoraimpuestos",
+    "storage_bucket": "calculadoraimpuestos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901339003327:android:e220c49e22334952",
+        "android_client_info": {
+          "package_name": "com.lociamcorp.calculadora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901339003327-04ccc6iahm4g3k01gqrb1oploctg7avs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMO4TGkoZxeyxztsQ0fCmaRxwAtryf0Cw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

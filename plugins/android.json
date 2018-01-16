@@ -1,0 +1,27 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.lociamcorp.calculadora"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.lociamcorp.calculadora"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.lociamcorp.calculadora"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.lociamcorp.calculadora"
+    },
+    "cordova-plugin-fcm": {
+      "PACKAGE_NAME": "com.lociamcorp.calculadora"
+    }
+  },
+  "dependent_plugins": {}
+}
